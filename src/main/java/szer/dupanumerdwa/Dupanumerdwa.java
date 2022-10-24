@@ -53,7 +53,7 @@ public class Dupanumerdwa {
             ITEMS.register(bus);
             MinecraftForge.EVENT_BUS.register(this);
     }
-    public ;
+
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
