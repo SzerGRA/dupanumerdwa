@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dupanumerdwa:block/test_block"
+    }
+  }
+}
