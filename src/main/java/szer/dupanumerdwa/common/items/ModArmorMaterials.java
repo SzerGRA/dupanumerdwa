@@ -13,7 +13,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    COPPER("copper", 26, new int[]{2, 5, 7, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.0F, () -> {
+    COPPER("copper", 26, new int[]{2, 5, 7, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
         return Ingredient.of(Items.COPPER_INGOT);
     });
 

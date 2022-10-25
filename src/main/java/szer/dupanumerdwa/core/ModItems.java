@@ -25,6 +25,8 @@ public class ModItems {
     public static final RegistryObject<Item> TEST_ITEM = ITEMS.register("test_item", () -> new Item (new Item.Properties().fireResistant() .tab(TAB)) );
     public static final RegistryObject<Item> CUSTOM_ITEM = ITEMS.register("custom_item", () -> new CustomItem(new Item.Properties().tab(TAB)) );
 
+    public static final RegistryObject<Item>  COPPER_ALLOY = ITEMS.register("copper_alloy", () -> new Item (new Item.Properties().tab(TAB)) );
+
     public static final RegistryObject<Item> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD,
             new Item.Properties().tab(TAB)));
     public static final RegistryObject<Item> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST,
